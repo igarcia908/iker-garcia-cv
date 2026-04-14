@@ -47,7 +47,7 @@ Must include:
 
 Example title:
 
-Iker Garcia  
+Iker Garcia 
 Senior AI Engineer | Machine Learning | AI Systems
 
 ## CV Download

@@ -6,7 +6,15 @@
       "Bash(pdftoppm -r 150 -f 1 -l 1 -png \"files/Iker-García-Ribote-Resume.pdf\" /tmp/cv-preview)",
       "Bash(ls /tmp/cv-preview*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(git config:*)",
+      "Bash(ssh -T git@github.com)",
+      "Read(//home/iker/.ssh/**)",
+      "Read(//home/iker/**)"
     ]
   }
 }
