@@ -1,11 +1,401 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=src/index.html" />
-  <title>Iker García Ribote</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Iker García Ribote — Senior AI Research Engineer and Data Science Lead. PhD in Computer Science. Building AI systems for industrial applications." />
+  <title>Iker García Ribote — AI Research Engineer</title>
+  <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
-  <p>Redirecting… <a href="src/index.html">click here if not redirected</a>.</p>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">Iker García</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn-nav" href="files/iker-garcia-cv.pdf" download>Download CV</a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero">
+    <div class="hero-inner">
+      <img src="images/profile.jpg" alt="Iker García Ribote" class="profile-img" />
+      <div class="hero-text">
+        <h1>Iker García Ribote</h1>
+        <p class="hero-title">Senior AI Research Engineer &amp; Data Science Lead</p>
+        <p class="hero-subtitle">PhD Candidate in Computer Science &nbsp;·&nbsp; Bilbao, Spain</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="files/iker-garcia-cv.pdf" download>Download CV (PDF)</a>
+          <a class="btn-secondary" href="#about">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a Senior AI Research Engineer and Data Science Lead with over six years of experience
+            building intelligent systems for real-world industrial problems. Currently at
+            <strong>Hubbell</strong>, I lead the Data Science effort in the Bilbao team, acting as the
+            primary bridge between AI research and production software systems — coordinating closely with
+            software engineering teams in the United States to turn research prototypes into
+            production-ready solutions.
+          </p>
+          <p>
+            My work spans the full arc from exploratory research to deployed ML pipelines: machine
+            learning, combinatorial optimisation, time-series analysis, smart-grid intelligence, and
+            large-scale data engineering. I am equally comfortable presenting novel algorithms in
+            peer-reviewed journals and shipping code that runs in production.
+          </p>
+          <p>
+            I actively embrace modern AI tooling and agentic workflows — including AI coding assistants
+            like Claude Code — to accelerate development, automate repetitive tasks, and prototype
+            AI-powered applications rapidly. I believe the next wave of productivity in software
+            engineering will be driven by developers who can collaborate effectively with AI systems.
+          </p>
+          <p>
+            Alongside my industry work, I am pursuing a <strong>PhD in Computer Engineering</strong>
+            (major: Artificial Intelligence) at the University of the Basque Country (UPV/EHU), with
+            publications in top-tier journals including Elsevier and IEEE.
+          </p>
+        </div>
+        <div class="about-cv-preview">
+          <a href="files/iker-garcia-cv.pdf" download title="Download CV">
+            <img src="images/cv-preview.png" alt="CV Preview" class="cv-preview-img" />
+            <span class="cv-preview-label">Download CV (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section-alt">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Senior Research Data Scientist</h3>
+                <span class="company">Hubbell</span>
+              </div>
+              <span class="period">Feb 2023 — Present</span>
+            </div>
+            <span class="location">Bilbao, Spain</span>
+            <ul class="timeline-bullets">
+              <li>Lead Data Science for the Bilbao team, setting technical direction for AI research and development initiatives.</li>
+              <li>Act as the primary liaison between the Bilbao Data Science team and the U.S. Software Development team, translating research outputs into production-grade software features.</li>
+              <li>Design and deploy ML pipelines for smart electrical-grid applications, covering topology discovery, load forecasting, and automated voltage control.</li>
+              <li>Drive adoption of modern AI tooling and agentic development workflows to accelerate the team's delivery capacity.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>Azure</span><span>Databricks</span><span>ML Pipelines</span><span>AI Agents</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Research Data Scientist</h3>
+                <span class="company">Ormazabal</span>
+              </div>
+              <span class="period">Nov 2018 — Feb 2023</span>
+            </div>
+            <span class="location">Amorebieta, Spain</span>
+            <ul class="timeline-bullets">
+              <li>Developed AI systems for low-voltage smart-grid management: feeder mapping, meter-transformer connectivity, and real-time voltage optimisation.</li>
+              <li>Participated in three funded research projects (H2020, ELKARTEK, CDTI) as a core technical contributor.</li>
+              <li>Authored and co-authored multiple conference papers (CIRED) and journal articles (Elsevier, IEEE) documenting novel algorithmic contributions.</li>
+              <li>Built data engineering pipelines using Apache Spark, Hadoop, and MongoDB to process large-scale smart-meter datasets.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>Apache Spark</span><span>MongoDB</span><span>Optimisation</span><span>Research</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Data Science Intern</h3>
+                <span class="company">Iberdrola</span>
+              </div>
+              <span class="period">Feb 2018 — Jun 2018</span>
+            </div>
+            <span class="location">Bilbao, Spain</span>
+            <ul class="timeline-bullets">
+              <li>Analysed and optimised the process of managing new electricity supply requests using data-driven techniques.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-icon">&#127891;</div>
+          <div class="edu-body">
+            <h3>PhD in Computer Engineering</h3>
+            <p class="edu-major">Major: Artificial Intelligence</p>
+            <p class="edu-school">University of the Basque Country (UPV/EHU)</p>
+            <span class="edu-period">2020 — Present &nbsp;·&nbsp; San Sebastián, Spain</span>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">&#127979;</div>
+          <div class="edu-body">
+            <h3>Master's in Visual Analytics &amp; Big Data</h3>
+            <p class="edu-major">Thesis: AI Applied to Low-Voltage Meters</p>
+            <p class="edu-school">International University of La Rioja (UNIR)</p>
+            <span class="edu-period">2018 — 2019 &nbsp;·&nbsp; La Rioja, Spain</span>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">&#10006;</div>
+          <div class="edu-body">
+            <h3>Bachelor's in Mathematics</h3>
+            <p class="edu-major">Undergraduate Thesis: The Three-Body Problem</p>
+            <p class="edu-school">University of the Basque Country (UPV/EHU)</p>
+            <span class="edu-period">2013 — 2018 &nbsp;·&nbsp; Leioa, Spain</span>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 class="subsection-title">Certifications &amp; Courses</h3>
+      <div class="cert-list">
+        <div class="cert-item">
+          <span class="cert-badge">DeepLearning.AI</span>
+          TensorFlow Developer Professional Certificate
+        </div>
+        <div class="cert-item">
+          <span class="cert-badge">British Council</span>
+          Aptis General — English CEFR: C
+        </div>
+        <div class="cert-item">
+          <span class="cert-badge">Coursera</span>
+          Specialized Models: Time Series and Survival Analysis
+        </div>
+        <div class="cert-item">
+          <span class="cert-badge">Mondragon University</span>
+          Machine Learning &amp; Deep Learning Specialisations (100 h)
+        </div>
+        <div class="cert-item">
+          <span class="cert-badge">Coursera</span>
+          Deep Learning with TensorFlow — CNN, NLP, Sequences (4 courses)
+        </div>
+        <div class="cert-item">
+          <span class="cert-badge">Udemy</span>
+          Reinforcement Learning &amp; Deep RL in Python (2 courses)
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>AI &amp; Machine Learning</h3>
+          <ul>
+            <li>Machine Learning &amp; Deep Learning</li>
+            <li>Reinforcement Learning</li>
+            <li>Time-Series Analysis</li>
+            <li>Natural Language Processing</li>
+            <li>Combinatorial Optimisation</li>
+            <li>AI Agents &amp; LLM-powered systems</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Programming &amp; Data</h3>
+          <ul>
+            <li>Python (primary)</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML5 / CSS3</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Data Engineering</h3>
+          <ul>
+            <li>Apache Spark</li>
+            <li>Apache Hadoop</li>
+            <li>Databricks</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Cloud &amp; DevOps</h3>
+          <ul>
+            <li>Azure</li>
+            <li>Azure DevOps</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <ul>
+            <li>Spanish — Native</li>
+            <li>English — C (Aptis General)</li>
+            <li>Basque — B2 (HABE)</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Research &amp; Leadership</h3>
+          <ul>
+            <li>Technical team leadership</li>
+            <li>Research-to-production delivery</li>
+            <li>Cross-functional collaboration</li>
+            <li>Scientific writing &amp; publishing</li>
+            <li>Funded project management (H2020, CDTI)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title">Selected Publications</h2>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <span class="pub-year">2025</span>
+          <div class="pub-body">
+            <p class="pub-title">DNkS: A Distance-based Neighborhood k-Search Algorithm for Determining Meter-Transformer Connectivity in Low-Voltage Grids</p>
+            <p class="pub-venue">Sustainable Energy, Grids and Networks — Elsevier</p>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">Filter Method-Based Feature Selection for Unattributed-Identity Multi-Target Regression</p>
+            <p class="pub-venue">Expert Systems with Applications — Elsevier</p>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2024</span>
+          <div class="pub-body">
+            <p class="pub-title">Unified Framework for the Analysis of Control Strategies on On-Load Tap-Changer's Automatic Voltage Controller</p>
+            <p class="pub-venue">IEEE Transactions on Automation Science and Engineering</p>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-body">
+            <p class="pub-title">Distribution Smart Transformer Pilot Experience for LV Grid Real-Time Operation</p>
+            <p class="pub-venue">CIRED 2023</p>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2022</span>
+          <div class="pub-body">
+            <p class="pub-title">Introducing Guard Smart Meters: Voltage Predictions and its Implications for Smart LV Grid Operation</p>
+            <p class="pub-venue">CIRED 2022</p>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2021</span>
+          <div class="pub-body">
+            <p class="pub-title">Feeder Mapping and Load Flow Algorithms for LV Distribution Grids</p>
+            <p class="pub-venue">CIRED 2021</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:iker261194@gmail.com">
+          <span class="contact-icon">&#9993;</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">iker261194@gmail.com</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/iker-garcia-ribote/" target="_blank" rel="noopener">
+          <span class="contact-icon">&#128101;</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">iker-garcia-ribote</span>
+        </a>
+        <a class="contact-card" href="https://github.com/igarcia908" target="_blank" rel="noopener">
+          <span class="contact-icon">&#128202;</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">igarcia908</span>
+        </a>
+        <a class="contact-card" href="https://orcid.org/0000-0002-8267-3377" target="_blank" rel="noopener">
+          <span class="contact-icon">&#128196;</span>
+          <span class="contact-label">ORCID</span>
+          <span class="contact-value">0000-0002-8267-3377</span>
+        </a>
+      </div>
+      <div class="download-cta">
+        <p>Interested in working together?</p>
+        <a class="btn-primary btn-large" href="files/iker-garcia-cv.pdf" download>Download Full CV (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Iker García Ribote &nbsp;·&nbsp; Built with plain HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="src/script.js"></script>
 </body>
 </html>
