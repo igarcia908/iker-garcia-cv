@@ -126,6 +126,9 @@ The website must:
 
 # File Structure
 
+index.html
+    The main website file (root of the repository, used by GitHub Pages)
+
 images/
     profile image and CV preview
 
@@ -133,7 +136,15 @@ files/
     CV PDF document
 
 src/
-    HTML, CSS and JavaScript files
+    Legacy/unused HTML, CSS and JavaScript files — do NOT edit these
+
+---
+
+# Important Note on File Location
+
+The active website is **`/index.html`** at the root of the repository.
+The `src/` directory contains old files that are no longer in use.
+Always edit the root `index.html`, never `src/index.html`.
 
 ---
 

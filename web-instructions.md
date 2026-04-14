@@ -86,6 +86,12 @@ Suggested style:
 - clean typography
 - responsive layout
 
+## File Location
+
+The active website file is **`/index.html`** at the root of the repository (required for GitHub Pages).
+
+The `src/` directory contains old legacy files — do NOT edit them.
+
 ## Assets
 
 All assets must come from this repository:
