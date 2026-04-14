@@ -391,6 +391,20 @@ section {
   margin-bottom: 4px;
 }
 
+.timeline-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-logo {
+  height: 36px;
+  width: auto;
+  max-width: 90px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .timeline-header h3 {
   font-size: 1.05rem;
   font-weight: 700;
